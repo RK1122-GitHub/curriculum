@@ -1,0 +1,74 @@
+/*ウィンドウ幅が最大767pxまでの場合に適用(タブレット用)*/
+@media screen and (max-width: 767px){
+
+    .wrapper{
+        width: 300px;
+    }
+
+    .header {
+        width: 300px;
+    }
+
+    .left {
+        width: 100px;
+    }
+
+    .right {
+        width: 75px;
+    }
+
+    .center {
+        width: 125px;
+    }
+
+    .center-down {
+        width: 200px;
+    }
+
+    .footer {
+        width: 300px;
+    }
+    
+}
+
+/*ウィンドウ幅が最大479pxまでの場合に適用(スマホ用)*/
+@media screen and (max-width: 479px){
+    .wrapper {
+        width: 150px;
+    }
+
+    .header {
+        width: 150px;
+    }
+
+    .left {
+        float: none;
+        width: 150px;
+        height: 100px;
+    }
+
+    .right {
+        float: none;
+        width: 150px;
+        height: 100px;
+    }
+
+    .center {
+        float: none;
+        width: 150px;
+    }
+
+    .center-down {
+        float: none;
+        width: 150px;
+    }
+
+    .footer {
+        float: none;
+        width: 150px;
+        
+    }
+
+    
+    
+}
