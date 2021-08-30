@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+.header{
+	background-color: gray;
+
+}
+
+.login{
+	display: inline-block;
+	padding: 10px;
+	color: white;
+}
+
+.date{
+	display: inline-block;
+	font-size:15px;
+}
+
+
+
+.footer{
+	background-color: gray;
+
+}
+
+.hoge{
+	display: inline-block;
+	padding: 10px;
+	color: white;
+	
+}
+
+
+.nameid{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
